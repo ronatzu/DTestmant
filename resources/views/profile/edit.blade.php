@@ -1,0 +1,1 @@
+<x-layouts.app title="Profile"><div class="card p-6"><h2 class="text-xl font-bold">Avery Stone</h2><p class="text-slate-500">admin@mantsoft.test</p><button class="btn mt-4">Update Profile</button></div></x-layouts.app>

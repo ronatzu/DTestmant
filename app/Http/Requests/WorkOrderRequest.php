@@ -1,0 +1,1 @@
+<?php namespace App\Http\Requests; use Illuminate\Foundation\Http\FormRequest; class WorkOrderRequest extends FormRequest{public function authorize():bool{return true;} public function rules():array{return ['title'=>'required','asset_id'=>'required|exists:assets,id','priority'=>'required','status'=>'required'];}}

@@ -1,0 +1,1 @@
+<div class="card p-10 text-center"><div class="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-2xl bg-blue-50 text-blue-600">◇</div><h3 class="font-semibold">Nothing here yet</h3><p class="text-sm text-slate-500">Create demo data or adjust your filters.</p></div>
