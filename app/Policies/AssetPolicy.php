@@ -1,0 +1,1 @@
+<?php namespace App\Policies; use App\Models\User; class AssetPolicy{public function viewAny(User $u):bool{return $u->hasAnyRole(['Administrator','Supervisor','Technician']);} public function manage(User $u):bool{return $u->hasAnyRole(['Administrator','Supervisor']);} public function delete(User $u):bool{return $u->hasRole('Administrator');}}
