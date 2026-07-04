@@ -1,0 +1,1 @@
+<x-layouts.app title="Maintenance Plan"><div class="card p-6"><h2 class="text-2xl font-bold">{{ $plan->asset->name }}</h2><p>{{ $plan->frequency }} maintenance by {{ $plan->technician?->name }}</p></div></x-layouts.app>

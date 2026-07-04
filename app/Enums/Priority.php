@@ -1,0 +1,1 @@
+<?php namespace App\Enums; enum Priority:string{case Low='low';case Medium='medium';case High='high';case Critical='critical'; public function label():string{return ucfirst($this->value);} public function color():string{return match($this){self::Low=>'slate',self::Medium=>'blue',self::High=>'amber',self::Critical=>'rose'};}}
